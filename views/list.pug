@@ -1,0 +1,14 @@
+html 
+    head 
+        title= "Product List"
+     head    
+body
+    table 
+        for product in productlist
+        tr  
+            td= product._id
+            td= product.Name 
+            td= product.SKU 
+            td= product.Price 
+            td= product.Quantity 
+         tr        
